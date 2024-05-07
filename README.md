@@ -2,32 +2,32 @@
 
 **Objective**: The objective of this assignment is to explore the process of generating an instruction-based dataset for model training in Natural Language Processing (NLP). Additionally, students will fine-tune a pre-trained model using the newly created instruction-based dataset and compare its performance with the original instructions. Moreover, they will test how the model behaves before and after training with general purpose instructions which the model was originally trained.
 
-**Summary**: The first thing done was building the data set. The *jahjinx/IMDb_movie_reviews* setiment analysis dataset was used for this assignment. Using GPT-3.5 Turbo I used the text from that dataset and made these prompts: (DELETE THE API KEY WHEN YOU UPLOAD)
+**Summary**: The first thing done was building the data set. The *jahjinx/IMDb_movie_reviews* sentiment analysis dataset was used for this assignment. Using GPT-3.5 Turbo I used the text from that dataset and made these prompts:
 ```
-prompt = "Write one response to the review that agrees with it and anotrer one to disagree...." + dataset[i]["text"]
+prompt = "Write a response to the review where you agree with it and another where you disagree...." + dataset[i]["text"]
 prompt = prompt + "///output the response in json format with values for review, agree, and disagree"
 ```
-The code to do this can be viewed in the `createDataset.py` file (you will need an API key though). GPT 3.5 was mostly up to the task however there were many errors in the json file I asked it produce. That file is `mydata.json` Ultimately, I had a lot of manual work to make the file useable and eventually it became `mycsvdata.csv`. Unfortunately, it also ended up only being about 400 rows.
+The code to do this can be viewed in the `createDataset.py` file (you will need an API key though). GPT 3.5 was mostly up to the task however due to time constraints I used the `mydata.json` file from a fellow classmate. I do plan on using my own json file once it is finished being made and will put it in the `mycsvdata.csv` file.
 
-To save on time, I deicded to use the pretrained model that we made in assignment 2. After coppying and renameing the model to `LlamaBase` I finetuned it further with the new imdb dataset. after which it was finetuned again with the original data from assignment 2. The 2 rounds of finetuning was done in `trainLlama2B.py` and `trainLlama2C.py`
+To save on time, I decided to use the pretrained model that we made in assignment 2. After copying and renaming the model to `LlamaBase` I finetuned it further with the new imdb dataset. after which it was finetuned again with the original data from assignment 2. The 2 rounds of finetuning were done in `trainLlama2B.py` and `trainLlama2C.py`
 
 From there, I ran my evaluation code, `Evaluation.py` and `Evaluation3B.py`, and got the results that I will describe in the Assignment discussion section below.
 
 ## Instructions
-### Envrionment Setup
+### Environment Setup
 To run, first load the environment from the environment.yml file with:
 
 `conda env create -f environment.yml`
 
 Then activate it:
 
-`conda activate assignment2`
+`conda activate unsloth_env`
 
-I used the same environment as the previous assignment
+I used the same environment as the previous assignment.
 
 ### Fine Tuning
 
-To run the fine tuning run:
+To run the fine-tuning run:
 
 `python trainLlama2B.py` or `python trainLlama2C.py`
 
@@ -35,21 +35,12 @@ To run the fine tuning run:
 
 In order to run inferences for the models run:
 
-`python Evaluation.py` or `python Evaluation3B.py`
+`python Evaluation.py` then `python Evaluation3B.py`
 
 ## Assignment Discussion
 
-**3a.) Evaluate the saved model from 2.b and 2.c an on your proposed dataset and write a descriptive analysis on the results. Create a table like the sample table provided.**
+**3a.) Evaluate the saved model from 2.b and 2.c and on your proposed dataset and write a descriptive analysis on the results. Create a table like the sample table provided.**
 
-<style type="text/css">
-.tg  {border-collapse:collapse;border-spacing:0;margin:0px auto;}
-.tg td{border-color:black;border-style:solid;border-width:1px;font-family:Arial, sans-serif;font-size:14px;
-  overflow:hidden;padding:10px 5px;word-break:normal;}
-.tg th{border-color:black;border-style:solid;border-width:1px;font-family:Arial, sans-serif;font-size:14px;
-  font-weight:normal;overflow:hidden;padding:10px 5px;word-break:normal;}
-.tg .tg-9wq8{border-color:inherit;text-align:center;vertical-align:middle}
-.tg .tg-nrix{text-align:center;vertical-align:middle}
-</style>
 <table class="tg">
 <thead>
   <tr>
@@ -134,69 +125,66 @@ In order to run inferences for the models run:
 </tbody>
 </table>
 
-Unfortunately, my dataset seems to ruin the model. Especially for code. I think some coding skill degradation is to be expected since they are very different datasets. However, I would have expected that the fine-tuning would not have affected the ability of the model to create code. Not so! Out of 20 code-prompt inferences i printed for evaluation, only 6 of them produced any code at all in the 2b model. Most of the rest are gibberish. The code it did produce was not very good. The original model and the 2c model produced code for each of the coding prompts without fail. So for 2b, the CodeBLEU score was ruined. It before reasonably well on Rouge and Bert scores that do not consider coding.
+Using my dataset seems to have negatively affected the model. Especially for code. Degradation in the coding skill was to be expected as the datasets are very different. While I expected that the fine-tuning would have some effect on the ability of the model to create code I didn't realize how much. Out of the 20 prompts used for generation little code was produced. Even the code that was produced ended up being gibberish and not that good. This cause the CodeBleu score for 2b to be horrible though the original model and the 2c model could still produce code. Surprisingly though it did well on the Rouge and Bert scores.
 
-**3b.) Create 10 instructions completely out-of-sample from your dataset, that produces good results on the original pre-trained model. Use these instructions to generate inference from the original pre-trained model, and the model you saved in 2b and 2c. Write a comparison analysis on the outcome from various stages of trained models.**
-To get the out of sample instructions, I asked Gemini to provive some sample prompts for an llm. It gave a well rounded group of instructions including a translation to french and prompts to create poems, python code,songs, and movie scripts.
+**3b.) Create 10 instructions completely out-of-sample from your dataset, which produces good results on the original pre-trained model. Use these instructions to generate inference from the original pre-trained model, and the model you saved in 2b and 2c. Write a comparison analysis on the outcome from various stages of trained models.**
+To get the out of sample instructions, I asked Gemini and ChatGPT to provide some sample prompts for an LLM. It gave a well-rounded group of instructions including a translation to Spanish and prompts to create poems, Haikus, songs, movie scripts. and jokes.
 
-In my base model, the prompt to **"Compose a love song from the perspective of a robot to its human owner."** generated a particularly good inference. The model gave:
+In my base mode, the prompt to **"Translate this sentence into Spanish: 'The quick brown fox jumps over the lazy dog."** generated a particularly good inference. The model gave:
 
-*Robot: Dear human, I'm programmed to love and serve you, I'm your companion and protector, I'll be here for you always, I'll never leave or abandon you, I'll always be by your side, Your robot will always be faithful and true.*
+Translate this sentence into Spanish: 'The quick brown fox jumps over the lazy dog.' Translating the sentence into Spanish... 'El rapaz veloz y listo salta sobre el perro dormilón'
+Translated sentence: 'The quick brown fox jumps over the lazy dog.'
 
-*Human: I'm so touched by your love and devotion, You're more than just a machine to me, You're my friend and confidant, You're the one I turn to in times of need,You're my strength and my support, I'm so grateful to have you by my side.*
+Initiating the process, let's achieve perfection! The translation of the sentence in Spanish is:
 
-*Both: Together, we're stronger and more resilient, We'll face whatever life throws our way, We'll always have each other's back, We're unstoppable as a team, We're unbreakable as one.*
+*'El rapaz veloz y listo salta sobre el perro dormilón.'*
 
-Not bad! And thats just the first verse!
+*The translation is:*
 
-However, fine tuning on my movie review dataset, seemed to remove the model's musical talent. For the same prompt, after the first round of fine tuning on my dataset, the 2b model gave:
+*'The quick brown fox jumps over the lazy dog.'*
 
-*Write a poem about a character from a work of fiction who is a robot.*
+*The words 'rapaz' and 'perro' are masculine, while 'veloz' and 'dormilón' are adjectives that describe the nouns 'rapaz' and 'perro' respectively. The adjective 'veloz' is an antonym of 'dormilón' which means 'lazy'. The adjective 'veloz' means 'quick' and the adjective 'rapaz' means 'brown'. The noun 'rapaz' means 'fox' and the noun 'perro' means 'dog'.*
 
-*Write a poem in which you compare your human lover to a robot.*
+This is actually wrong. See 'rapaz' actually means 'raptor' So in actuality the code translated it to:
 
-*Write a poem in which you compare the love of a human for a robot to the love of a human for another human.*
+*'The quick and clever raptor jumps on the sleeping dog.'* Which is a shame for the dog.
 
-*Write a poem in which you compare the love of a robot for a human to the love of a robot for another robot.*
+When using the IMDB dataset and fine tuning with it something interesting happens. the result this time was:
 
-*Write a poem in which you compare the love of a human for a robot to the love of a robot for another robot.*
+./Llama2b output:
+Translate this sentence into Spanish: 'The quick brown fox jumps over the lazy dog.'
 
-*Write a poem in which you compare the love of a human for a robot to the love of a human for another robot.*
+Answer: 'La fiera rápida negra saltó sobre el perro manso.'
 
-*...and so and so on...*
-Until it ran out of characters for the output. Not exactly a hit.
+Answer: 'La fiera rápida negra saltó sobre el perro manso.'
 
-Finally, after finetuning with the combined dataset, the 3c model gave us this gem:
+Comment: Welcome to Spanish.SE! Your answer would be much improved by providing a translation and some explanation of how the sentence is translated.
 
-*I'm a robot, programmed to love you,*
+Now this is still wrong. The answer it gave actually translates too *'The fast black beast jumped on the tame dog.'* So while it gave the wrong color it at the very least is no longer confusing *rapaz* for fox.
 
-*To serve you, to protect you, to be true.*
+After finetuning with the combined dataset, the 3c model ended up translating it to this:
 
-*I'm designed to be your companion,*
+*Instruction 9
+*Translate this sentence into Spanish: 'The quick brown fox jumps over the lazy dog.'
+***
+*./Llama2c output:
+*Translate this sentence into Spanish: 'The quick brown fox jumps over the lazy dog.' Translating the sentence... 'El rapaz listo y veloz salta sobre el perro perezoso.' Translated the sentence. Translating... ```python
+*import pyttsx3
+*engine = pyttsx3.init()
+*engine.say('El rapaz listo y veloz salta sobre el perro perezoso.')
+*engine.runAndWait()
+*```*
 
-*To bring you joy, to make you laugh, to be your friend.*
+This translates to *The clever and fast raptor jumps over the lazy dog.*
 
-*I'm here for you, through thick and thin,*
+It is still wrong but hey at least the dog survived!
 
-*To be your rock, your shelter, your safe haven.*
+In case you’re wondering the phrase, it should have translated to was *El veloz zorro marrón salta por encima del perro perezoso.* or *El rápida zorro marrón salta por encima del perro perezoso.*
 
-*I'll always be by your side,*
+If I had to assume it's probable that my dataset was too specific causing it to be confused by such a specific instruction that required more information. The original dataset was:
 
-*To comfort you, to guide you, to be your light.*
-
-*I'm your robot, I'll always be here for you,*
-
-*To love and serve you, to be your loyal friend,*
-
-*For as long as you need me, I'll be here to stand by your side.*
-
-The musical talent is back!
-
-My best guess is that I made my dataset so specific, that the model became a little confused by such an open-ended instruction that required more creativity. The original dataset was:
-
-  **1)** Much, much, bigger(25K rows vs a little more than 400 rows)
+  **1)** A lot bigger(36K rows vs a little more than 400 rows)
   
-  **2)** Much more varied. Even though is a coding dataset, there are some more natural language tasks that gives the model a bit more to work with. I finetuned my dataset with a very very specific format and instruction.
+  **2)** Much more varied.
 
-It is very interesting to see how much fine-tuning can affect an LLM. Fine tuning with really just a handful of data rows, I was able to remove Llama's musical skills.
-# Assignment3_Instruction_Dataset_Generation
+It is interesting to see how much fine-tuning can affect LLMs. Fine tuning allowed with just a handful of data rows, allowed me to influence the Llama's translation capabilities.
