@@ -41,7 +41,35 @@ In order to run inferences for the models run:
 
 **3a.) Evaluate the saved model from 2.b and 2.c an on your proposed dataset and write a descriptive analysis on the results. Create a table like the sample table provided.**
 
-![image](https://github.com/jasonjay86/CS6263Assignment3/assets/65077765/81ce998f-3c01-401d-892a-25c72ebb7346)
+<style type="text/css">
+.tg  {border-collapse:collapse;border-spacing:0;margin:0px auto;}
+.tg td{border-color:black;border-style:solid;border-width:1px;font-family:Arial, sans-serif;font-size:14px;
+  overflow:hidden;padding:10px 5px;word-break:normal;}
+.tg th{border-color:black;border-style:solid;border-width:1px;font-family:Arial, sans-serif;font-size:14px;
+  font-weight:normal;overflow:hidden;padding:10px 5px;word-break:normal;}
+.tg .tg-0pky{border-color:inherit;text-align:left;vertical-align:top}
+</style>
+<table class="tg">
+<thead>
+  <tr>
+    <th class="tg-0pky"></th>
+    <th class="tg-0pky"></th>
+    <th class="tg-0pky"></th>
+  </tr>
+</thead>
+<tbody>
+  <tr>
+    <td class="tg-0pky"></td>
+    <td class="tg-0pky"></td>
+    <td class="tg-0pky"></td>
+  </tr>
+  <tr>
+    <td class="tg-0pky"></td>
+    <td class="tg-0pky"></td>
+    <td class="tg-0pky"></td>
+  </tr>
+</tbody>
+</table>
 
 Unfortunately, my dataset seems to ruin the model. Especially for code. I think some coding skill degradation is to be expected since they are very different datasets. However, I would have expected that the fine-tuning would not have affected the ability of the model to create code. Not so! Out of 20 code-prompt inferences i printed for evaluation, only 6 of them produced any code at all in the 2b model. Most of the rest are gibberish. The code it did produce was not very good. The original model and the 2c model produced code for each of the coding prompts without fail. So for 2b, the CodeBLEU score was ruined. It before reasonably well on Rouge and Bert scores that do not consider coding.
 
