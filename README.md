@@ -47,26 +47,89 @@ In order to run inferences for the models run:
   overflow:hidden;padding:10px 5px;word-break:normal;}
 .tg th{border-color:black;border-style:solid;border-width:1px;font-family:Arial, sans-serif;font-size:14px;
   font-weight:normal;overflow:hidden;padding:10px 5px;word-break:normal;}
-.tg .tg-0pky{border-color:inherit;text-align:left;vertical-align:top}
+.tg .tg-9wq8{border-color:inherit;text-align:center;vertical-align:middle}
+.tg .tg-nrix{text-align:center;vertical-align:middle}
 </style>
 <table class="tg">
 <thead>
   <tr>
-    <th class="tg-0pky"></th>
-    <th class="tg-0pky"></th>
-    <th class="tg-0pky"></th>
+    <th class="tg-9wq8" colspan="8">Normal&nbsp;&nbsp;&nbsp;Evaluation</th>
   </tr>
 </thead>
 <tbody>
   <tr>
-    <td class="tg-0pky"></td>
-    <td class="tg-0pky"></td>
-    <td class="tg-0pky"></td>
+    <td class="tg-9wq8"> </td>
+    <td class="tg-9wq8">CodeBleu</td>
+    <td class="tg-9wq8" colspan="2">Rouge-L</td>
+    <td class="tg-nrix">Rouge-L Average</td>
+    <td class="tg-nrix" colspan="2">BERTScore</td>
+    <td class="tg-nrix">BERTScore Average</td>
   </tr>
   <tr>
-    <td class="tg-0pky"></td>
-    <td class="tg-0pky"></td>
-    <td class="tg-0pky"></td>
+    <td class="tg-9wq8" rowspan="3">Llama2Base</td>
+    <td class="tg-9wq8" rowspan="3">0.3166</td>
+    <td class="tg-9wq8">Recall: </td>
+    <td class="tg-nrix">0.5060</td>
+    <td class="tg-nrix" rowspan="3">0.2938</td>
+    <td class="tg-nrix">Recall: </td>
+    <td class="tg-nrix">0.8675</td>
+    <td class="tg-nrix" rowspan="3">0.8286</td>
+  </tr>
+  <tr>
+    <td class="tg-nrix">Precision: </td>
+    <td class="tg-nrix">0.1531</td>
+    <td class="tg-nrix">Precision: </td>
+    <td class="tg-nrix">0.7910</td>
+  </tr>
+  <tr>
+    <td class="tg-nrix">F1 Score: </td>
+    <td class="tg-nrix">0.2222</td>
+    <td class="tg-nrix">F1 Score: </td>
+    <td class="tg-nrix">0.8273</td>
+  </tr>
+  <tr>
+    <td class="tg-nrix" rowspan="3">Llama2 b.</td>
+    <td class="tg-nrix" rowspan="3">0.1945</td>
+    <td class="tg-nrix">Recall: </td>
+    <td class="tg-nrix">0.4785</td>
+    <td class="tg-nrix" rowspan="3">0.2621</td>
+    <td class="tg-nrix">Recall: </td>
+    <td class="tg-nrix">0.8467</td>
+    <td class="tg-nrix" rowspan="3">0.8164</td>
+  </tr>
+  <tr>
+    <td class="tg-nrix">Precision: </td>
+    <td class="tg-nrix">0.1209</td>
+    <td class="tg-nrix">Precision: </td>
+    <td class="tg-nrix">0.7870</td>
+  </tr>
+  <tr>
+    <td class="tg-nrix">F1 Score: </td>
+    <td class="tg-nrix">0.1868</td>
+    <td class="tg-nrix">F1 Score: </td>
+    <td class="tg-nrix">0.8154</td>
+  </tr>
+  <tr>
+    <td class="tg-nrix" rowspan="3">Llama2 c.</td>
+    <td class="tg-nrix" rowspan="3">0.3285</td>
+    <td class="tg-nrix">Recall: </td>
+    <td class="tg-nrix">0.5029</td>
+    <td class="tg-nrix" rowspan="3">0.2992</td>
+    <td class="tg-nrix">Recall: </td>
+    <td class="tg-nrix">0.8643</td>
+    <td class="tg-nrix" rowspan="3">0.8310</td>
+  </tr>
+  <tr>
+    <td class="tg-nrix">Precision: </td>
+    <td class="tg-nrix">0.1619</td>
+    <td class="tg-nrix">Precision: </td>
+    <td class="tg-nrix">0.7988</td>
+  </tr>
+  <tr>
+    <td class="tg-nrix">F1 Score: </td>
+    <td class="tg-nrix">0.2328</td>
+    <td class="tg-nrix">F1 Score: </td>
+    <td class="tg-nrix">0.8300</td>
   </tr>
 </tbody>
 </table>
