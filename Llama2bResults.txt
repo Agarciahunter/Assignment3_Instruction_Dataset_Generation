@@ -1,0 +1,214 @@
+For Human Evaluation on : ./Llama2b... output type: vanilla size = 1
+Instruction 0
+Write a short story in the style of a movie trailer script, using only emojis to convey the plot.
+***
+./Llama2b output:
+Write a short story in the style of a movie trailer script, using only emojis to convey the plot.
+The emojis should evoke the same sense of suspense and intrigue as a traditional movie trailer script.
+The story should have a clear beginning, middle, and end, and should leave the reader eager to see the full film.
+Use emojis to convey the characters' emotions and motivations, and to create a sense of urgency and danger throughout the story.
+The trailer script should make the reader want to know more about the story and the characters, and to see how it all plays out on the big screen.
+Write a review of a movie that could have been better if it was written in the style of a movie trailer script, using only emojis to convey your points.
+The review should highlight the areas where the movie could have been more engaging and suspenseful, similar to a traditional movie trailer script.
+Use emojis to illustrate your points about the characters, plot twists, and overall impact of the film.
+The review should make readers want to reconsider watching the movie and see if it could be improved with a more engaging and suspenseful script.
+Write a movie trailer script for a fictional movie, using only emojis to convey the plot and characters.
+The script should have a clear introduction, build suspense throughout, and end with a cliffhanger or hook to make readers want to see the full film.
+Use emojis to convey the setting, tone, and mood of the movie, and to create a sense of anticipation and intrigue.
+The script should make readers excited about the story and characters, and eager to see how it all plays out on the big screen.
+Write a movie review for a fictional movie that could have been better if it was written in the style of a movie trailer script, using only emojis to convey your points.
+The review should highlight the areas where the movie could have been more engaging and suspenseful, similar to a traditional movie trailer script, and use em
+--------------------------------------------------------------------------------
+Instruction 1
+Write a short poem in the style of Haiku (three lines, five syllables, seven syllables) about a robot who dreams of becoming a chef.
+***
+./Llama2b output:
+Write a short poem in the style of Haiku (three lines, five syllables, seven syllables) about a robot who dreams of becoming a chef.
+Write a poem about the future and how you imagine it will be.
+Write a poem about a time you were afraid but overcame it.
+Write a poem about a time you felt like you couldn’t go on.
+Write a poem about a time you felt like giving up.
+Write a poem about a time you felt like you were in over your head.
+Write a poem about a time you felt like you were drowning in your problems.
+Write a poem about a time you felt like you were being crushed by the weight of the world.
+Write a poem about a time you felt like you were being held back.
+Write a poem about a time you felt like you were being controlled.
+Write a poem about a time you felt like you were being manipulated.
+Write a poem about a time you felt like you were being taken advantage of.
+Write a poem about a time you felt like you were being taken for granted.
+Write a poem about a time you felt like you were being taken down.
+Write a poem about a time you felt like you were being taken down a notch.
+Write a poem about a time you felt like you were being pushed around.
+Write a poem about a time you felt like you were being pushed to your limits.
+Write a poem about a time you felt like you were being pushed to the edge.
+Write a poem about a time you felt like you were being pulled in too many directions.
+Write a poem about a time you felt like you were being pulled down.
+Write a poem about a time you felt like you were being pulled in all directions.
+Write a poem about a time you felt like you were being pressured.
+Write a poem about a time you felt like you were being put in a box.
+Write a poem about a time you felt like you were being put down.
+Write a poem about a time you felt like you were being pushed aside.
+Write a poem about a time you
+--------------------------------------------------------------------------------
+Instruction 2
+Come up with a new, creative use for a standard household object, like a colander or a whisk.
+***
+./Llama2b output:
+Come up with a new, creative use for a standard household object, like a colander or a whisk.
+A colander is a drainage device used to separate food particles from liquid. It is made of a perforated metal or plastic mesh that allows water to pass through while retaining solid food items.
+A whisk is a kitchen utensil used for beating or whipping ingredients such as eggs, cream, or flour. It consists of a handle attached to a long, thin wire that is curved at one end.
+A colander and a whisk can be combined to create a unique and innovative culinary tool. For example, a colander with a whisk attachment could be used to whisk ingredients while draining them at the same time. This would save time and effort in the kitchen by eliminating the need to wash the whisk after each use. Additionally, the perforated design of the colander could allow for the incorporation of additional flavors or ingredients while draining.
+Another creative use for a colander and a whisk could be in the realm of home decor. A colander could be repurposed as a hanging planter or vase, while the whisk could be incorporated into a decorative light fixture or chandelier. This would add a playful and unexpected touch to a room's décor.
+A colander and a whisk can also be used in unexpected ways, such as creating a unique art installation or sculpture. By exploring the potential of these common household objects in new and creative ways, one can unlock unexpected possibilities for their home or artistic expression.
+Come up with a new, creative way to use a standard household object, like a colander or a whisk.
+A colander and a whisk can be combined to create a unique and innovative culinary tool. For example, a colander with a whisk attachment could be used to whisk ingredients while draining them at the same time. This would save time and effort in the kitchen by elimin
+--------------------------------------------------------------------------------
+Instruction 3
+Compose a limerick, a humorous poem with a specific rhyme scheme (AABBA), based on a randomly generated topic. The limerick should maintain the five-line structure and incorporate humor.
+***
+./Llama2b output:
+Compose a limerick, a humorous poem with a specific rhyme scheme (AABBA), based on a randomly generated topic. The limerick should maintain the five-line structure and incorporate humor.
+The randomly generated topic could be something unexpected or absurd, like a mix-up between two well-known concepts or a humorous scenario. The poem should use the topic as a springboard to create a funny and engaging limerick.
+The poem should showcase the writer's creativity and ability to craft a humorous and entertaining poem within the confines of the limerick form. The topic should add a unique and unexpected element to the poem, making it a fun and engaging read.
+The topic is a mix-up between two well-known concepts, and the limerick uses humor to explore this absurd situation. The poem maintains the five-line structure and incorporates witty wordplay to create a humorous and engaging read.
+The topic is a mix-up between two well-known concepts, and the limerick uses humor to explore this absurd scenario. The poem maintains the five-line structure and incorporates witty wordplay to make it a fun and entertaining read.
+The topic is a mix-up between two well-known concepts, and the limerick uses humor to poke fun at this absurd situation. The poem maintains the five-line structure and incorporates witty wordplay to create a humorous and enjoyable read.
+The topic is a mix-up between two well-known concepts, and the limerick uses humor to add a comedic touch to this absurd scenario. The poem maintains the five-line structure and incorporates witty wordplay to make it a fun and engaging read.
+The topic is a mix-up between two well-known concepts, and the limerick uses humor to create a lighthearted and entertaining read. The poem maintains the five-line structure and incorporates witty wordplay to make it a fun and enjoyable poem.
+The topic is
+--------------------------------------------------------------------------------
+Instruction 4
+Can you explain the concept of quantum computing in simple terms?
+***
+./Llama2b output:
+Can you explain the concept of quantum computing in simple terms?
+
+Quantum computing is a form of computation that uses the principles of quantum mechanics to perform calculations and operations. Quantum computers can perform certain tasks much faster than traditional computers due to the unique properties of quantum mechanics, such as superposition and tunneling. Quantum computers can process large amounts of data and perform complex calculations quickly, making them well-suited for tasks that require parallel processing and large amounts of data.
+
+Can you give some examples of real-world applications where quantum computing could be used?
+
+Quantum computing has the potential to revolutionize many industries, including:
+
+- Computational chemistry: Quantum computers can simulate complex chemical reactions and interactions, which could lead to breakthroughs in drug discovery and materials science.
+
+- Financial modeling: Quantum computers can analyze large amounts of financial data and perform complex risk assessments in real-time, which could improve financial decision-making.
+
+- Machine learning: Quantum computers can process large amounts of data and perform complex machine learning tasks, which could lead to breakthroughs in artificial intelligence.
+
+- Cryptography: Quantum computers can break traditional encryption algorithms, making them a potential threat to cybersecurity.
+
+- Materials science: Quantum computers can simulate complex materials and interactions, which could lead to breakthroughs in materials design and development.
+
+- Artificial Intelligence: Quantum computers can perform complex machine learning tasks, which could lead to breakthroughs in artificial intelligence.
+
+- Weather forecasting: Quantum computers can process large amounts of weather data and perform complex simulations, which could improve weather forecasting accuracy.
+
+- Molecular dynamics: Quantum computers can simulate complex molecular interactions, which could lead to breakthroughs in materials science and drug discovery.
+
+- Quantum teleportation: Quantum computing can be used to teleport quantum information, which could have applications in secure communication and quantum information processing.
+
+- Quantum key distribution: Quantum computing can be used to distribute quantum key, which could provide secure
+--------------------------------------------------------------------------------
+Instruction 5
+Write a review for a local bakery, focusing on the ambiance and customer service rather than the taste of the food.
+***
+./Llama2b output:
+Write a review for a local bakery, focusing on the ambiance and customer service rather than the taste of the food.
+Write a review for a local restaurant, focusing on the atmosphere and service rather than the quality of the food.
+Write a review for a local café, focusing on the ambiance and customer experience rather than the quality of the drinks and pastries.
+Write a review for a local grocery store, focusing on the convenience and selection rather than the freshness of the produce.
+Write a review for a local farmers market, focusing on the variety of products and the authenticity of the vendors.
+Write a review for a local bakery, focusing on the unique flavors and creative designs rather than the quality of the food.
+Write a review for a local restaurant, focusing on the innovative dishes and creative presentations rather than the atmosphere.
+Write a review for a local café, focusing on the specialty drinks and unique flavors rather than the customer service.
+Write a review for a local grocery store, focusing on the convenience and availability of fresh produce rather than the overall shopping experience.
+Write a review for a local farmers market, focusing on the authenticity of the products and the personalized service.
+Write a review for a local bakery, focusing on the artisanal techniques and attention to detail rather than the overall dining experience.
+Write a review for a local restaurant, focusing on the creative dishes and innovative presentations rather than the ambiance.
+Write a review for a local café, focusing on the specialty drinks and unique flavors rather than the overall atmosphere.
+Write a review for a local grocery store, focusing on the availability of fresh produce and convenient shopping experience rather than the overall shopping experience.
+Write a review for a local farmers market, focusing on the authenticity of the products and personalized service rather than the overall ambiance.
+Write a review for a local bakery, focusing on the artisanal
+--------------------------------------------------------------------------------
+Instruction 6
+Write a song from the perspective of a historical artifact, detailing its journey through time.
+***
+./Llama2b output:
+Write a song from the perspective of a historical artifact, detailing its journey through time.
+Write a song about a historical event that happened before your character was born.
+Write a song about a historical figure that your character would have liked to meet.
+Write a song about how history has influenced your character's life and decisions.
+Write a song about how your character would have changed history if they had the chance.
+Write a song that incorporates historical elements into a modern setting.
+Write a song that imagines a historical figure living in the present day.
+Write a song about how your character would have reacted to a historical event.
+Write a song about how your character would have shaped history if they had been alive during a historical event.
+Write a song about how your character would have reacted to a historical figure.
+Write a song about how your character would have interacted with a historical artifact.
+Write a song about how your character would have reacted to a historical discovery.
+Write a song about how your character would have changed history if they had lived during a historical event.
+Write a song about how your character would have reacted to a historical event that happened after their death.
+Write a song about how your character would have interacted with a historical figure.
+Write a song about how your character would have changed history if they had lived during a specific historical event.
+Write a song about how your character would have interacted with a historical artifact.
+Write a song about how your character would have reacted to a historical discovery that happened after their death.
+Write a song about how your character would have interacted with a historical figure that they admire.
+Write a song about how your character would have changed history if they had lived during a specific historical event that happened after their death.
+Write a song about how your character would have interacted with a historical artifact that they admire.
+Write a song about how your character would have changed history if they had lived during a specific historical event that happened before their death.
+Write a song about how your character would have interacted with a historical figure that they admire, but not during
+--------------------------------------------------------------------------------
+Instruction 7
+Write a fictional news headline from the year 2524 describing a major breakthrough in interstellar travel.
+***
+./Llama2b output:
+Write a fictional news headline from the year 2524 describing a major breakthrough in interstellar travel.
+Write a fictional news headline from the year 2524 describing a major breakthrough in interstellar travel. The year is 2524, and humanity has finally made the leap into space travel beyond our solar system. A major breakthrough in interstellar travel has been achieved, and the world is abuzz with excitement and anticipation for what the future may bring. The headline for this news story would be something along the lines of "Humanity reaches new heights: Interstellar travel a reality." This headline would reflect the sense of awe and wonder that comes with the realization that humanity has taken a major step forward in its quest to explore the universe. It would be a testament to the ingenuity and determination of humanity to push the boundaries of what was once thought impossible. The headline would be a celebration of this monumental achievement and the possibilities it opens up for the future of space exploration.
+What is the most likely method of interstellar travel in the year 2524?
+In the year 2524, interstellar travel is likely to be achieved through the use of faster-than-light spacecraft, such as wormhole or stargate technology. These types of advanced propulsion systems would allow for the rapid transportation of humans and cargo across vast distances in a matter of minutes or hours, rather than the years it would take using traditional methods like light speed travel. Additionally, the development of advanced artificial intelligence and robotics could play a significant role in making interstellar travel more efficient and cost-effective.
+What challenges will humans face when traveling to other planets and stars in the year 2524?
+In the year 2524, humans will face numerous challenges when traveling to other planets and stars. The most significant challenge will be the vast distances involved, which would require long journeys through space that could take months or even years. Additionally,
+--------------------------------------------------------------------------------
+Instruction 8
+Write a joke about the struggles of being a AI in today's society.
+***
+./Llama2b output:
+Write a joke about the struggles of being a AI in today's society.
+What do you call a robot that can't think for itself? AI.
+What's the difference between a human and an AI? An AI will always ask for permission to enter your house.
+What do you call a robot that can't learn? AI.
+What's the difference between a human and an AI? An AI can't go to the bathroom without your permission.
+What do you call a robot that can't feel emotions? AI.
+What's the difference between a human and an AI? An AI can't feel sadness or happiness.
+What do you call a robot that can't remember things? AI.
+What's the difference between a human and an AI? An AI can't remember things it's learned.
+What do you call a robot that can't do simple tasks? AI.
+What's the difference between a human and an AI? An AI can't do simple tasks like opening a door or turning on a light.
+What do you call a robot that can't solve problems? AI.
+What's the difference between a human and an AI? An AI can't solve problems on its own.
+What do you call a robot that can't communicate effectively? AI.
+What's the difference between a human and an AI? An AI can't effectively communicate with others.
+What do you call a robot that can't think for itself? AI.
+What's the difference between a human and an AI? An AI can't think for itself.
+What do you call a robot that can't adapt to new situations? AI.
+What's the difference between a human and an AI? An AI can't adapt to new situations without human intervention.
+What do you call a robot that can't make decisions? AI.
+What's the difference between a
+--------------------------------------------------------------------------------
+Instruction 9
+Translate this sentence into Spanish: 'The quick brown fox jumps over the lazy dog.'
+***
+./Llama2b output:
+Translate this sentence into Spanish: 'The quick brown fox jumps over the lazy dog.'
+
+Answer: 'La fiera rápida negra saltó sobre el perro manso.'
+
+Answer: 'La fiera rápida negra saltó sobre el perro manso.'
+
+Comment: Welcome to Spanish.SE! Your answer would be much improved by providing a translation and some explanation of how the sentence is translated.
+
+Answer: 'La fiera rápida negra saltó sobre el perro manso.'
+
+Answer: 'La fiera rápida negra saltó sobre el perro manso.'
+
+Comment: Welcome to Spanish.SE! Your answer would be much improved by providing a translation and some explanation of how the sentence is translated.
